@@ -1,0 +1,152 @@
+<head>
+  <base target='_blank' />
+  <style>
+    body {
+      padding:20px;
+      background:gray;
+      font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+      text-align:center;
+      text-shadow: 2px 2px 4px #222;
+      color:#111;
+    }
+    div.innercontainer {
+      background:steelblue;
+      padding: 20px;
+      border-radius:10px;
+      background-image:url(assets/clarinetbubble8.png);
+      background-repeat:no-repeat;
+      background-attachment:scroll;
+      background-position:right bottom;
+    }
+    div.outercontainer {
+      box-shadow: 0px 0px 20px 5px #111;
+      border-radius:10px;
+    }
+    .myname {
+      font-size:extra-large;
+      text-shadow: 0px 2px 3px #111;
+      <!--box-shadow: 0px 0px 1px 1px #CCC;-->
+      <!--background:steelblue;-->
+      border-radius: 30px;
+      color:#FFF;
+      padding:15px;
+      margin:15px;
+    }
+    .section {
+      margin:20px;
+      padding:10px;
+    }
+    .headersection{
+      margin:0px 0px 0px 0px;
+    }
+    a{
+      margin:5px;
+      padding:2px 5px 5px 5px;
+      border-radius:5px;
+      background-color:rgba(102,153,204,.8);
+      box-shadow: 0px 0px 4px 0px #BBB;
+      color:#00FFFF;
+    }
+    a:visited {
+      color:#00FFFF;
+    }
+    a:hover {
+      box-shadow: 0px 0px 1px 2px #999;
+      <!--color:#CCFFFF;-->
+    }
+    .bgimage {
+      background:transparent;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      border-radius: 100px 0px 0px 0px;
+    }
+    .well {
+      background:rgba(200,200,200,0.2);
+      box-shadow: 0px 0px 4px 1px inset;
+      display:inline-block;
+      color:#EEE;
+      border-radius:1000px;
+      padding:50px;
+      padding-top:100px;
+      padding-bottom:0px;
+      width:500px;
+      height:500px;
+    }
+
+    .bubble{
+      list-style:none;
+      background:rgba(204,204,204,0.1);
+      border-radius:1000px;
+      box-shadow: 0px 0px 5px 0px #CCC inset;
+      background-image:url(assets/glow3.png);
+      background-size: 100% 100%;
+    }
+    .well{
+      background-image:url(assets/glow2.png);
+    }
+    .background {
+      position:absolute;
+    }
+  </style>
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <!-- <script type="text/javascript" src="/js/ender.min.js"></script> -->
+  <script type="text/javascript" src="js/plax.js"></script>
+  <title>Casey Watts!</title>
+</head>
+
+<div class="outercontainer">
+  <div class="innercontainer" style="position:relative;">
+    <li class="bubble" data-xrange="40" data-yrange="40" style="position:absolute;right:260px;bottom:320px;width:70px;height:70px;"></li>
+    <!--<li class="bubble" data-xrange="0" data-yrange="0" style="position:absolute;right:10px;top:10px;width:70px;height:70px;"></li>-->
+    <!--<li class="bubble" data-xrange="0" data-yrange="0" style="position:absolute;right:90px;top:10px;width:70px;height:70px;"></li>-->
+    <!--<li class="bubble" data-xrange="0" data-yrange="0" style="position:absolute;right:170px;top:10px;width:70px;height:70px;"></li>-->
+    <!--<img src="assets/caseyface_bg4.png" class="bgimage"></img>-->
+    <div class="well bubble" data-xrange="10" data-yrange="10">
+
+    <div class="headersection myname">
+      <h1>Hi I'm <span class="">Casey Watts!</span></h1>
+    </div>
+
+      <div class="section">
+        I do lots of tech stuff. I optimize <a href="assets/optimize.jpg">ALL THE SYSTEMS</a>
+      </div>
+
+      <div class="section" id="section2">
+        I write about useful things, check out <a href="http://caseywatts.github.io">my blog</a>
+      </div>
+
+      <div class="section" data-xrange="40" data-yrange="40">
+        I make things and put them in <a href="http://github.com/caseywatts">my github account</a>
+      </div>
+
+      <div class="section" style="font-size:small">
+        &lt;3 bubbles!
+      </div>
+
+      <div class="section">
+      </div>
+    </div>
+    <ul>
+      <!--<li class="bubble background" id="bg1" data-xrange="80" data-yrange="40" data-invert="true" style="width:20px;height:20px;left:105px;top:210px;"></li>-->
+      <li class="bubble background" id="bg2" data-xrange="40" data-yrange="90" data-invert="true" style="width:85px;height:85px;left:100px;top:300px;"></li>
+      <!--<li class="bubble background" id="bg3" data-xrange="30" data-yrange="70" style="width:40px;height:40px;left:180px;top:290px;"></li>-->
+      <!--<li class="bubble background" id="bg4" data-xrange="20" data-yrange="40" data-invert="true" style="width:20px;height:20px;left:130px;top:50px;"></li>-->
+      <!--<li class="bubble background" id="bg5" data-xrange="70" data-yrange="50" style="width:50px;height:50px;left:130px;top:140px;"></li>-->
+      <!--<li class="bubble background" id="bg6" data-xrange="60" data-yrange="80" style="width:55px;height:55px;left:240px;top:70px;"></li>-->
+      <li class="bubble background" id="bg7" data-xrange="160" data-yrange="310" data-invert="false" style="width:20px;height:20px;left:70px;top:300px;"></li>
+      <li class="bubble background" id="bg8" data-xrange="80" data-yrange="30" data-invert="true" style="width:100px;height:100px;left:165px;top:50px;"></li>
+      <!--<li class="bubble background" id="bg9" data-xrange="50" data-yrange="100" data-invert="true" style="width:20px;height:20px;left:175px;top:100px;"></li>-->
+      <li class="bubble background" id="bg10" data-xrange="20" data-yrange="70" data-invert="true" style="width:40px;height:40px;left:230px;top:130px;"></li>
+      <!--<li class="bubble background" id="bg11" data-xrange="70" data-yrange="40" data-invert="true" style="width:20px;height:20px;left:210px;top:90px;"></li>-->
+      <!--<li class="bubble background" id="bg13" data-xrange="100" data-yrange="120" style="width:20px;height:20px;left:190px;top:145px;"></li>-->
+      <li class="bubble background" id="bg14" data-xrange="60" data-yrange="70" style="width:40px;height:40px;left:120px;top:230px;"></li>
+      <li class="bubble background" id="bg15" data-xrange="100" data-yrange="100" style="width:130px;height:130px;left:180px;top:205px;"></li>
+      <li class="bubble background" id="bg16" data-xrange="130" data-yrange="60" style="width:80px;height:80px;left:60px;top:65px;"></li>
+    </ul>
+  </div>
+</div>
+<script>
+  $('.bubble').plaxify();
+  $.plax.enable();
+</script>
